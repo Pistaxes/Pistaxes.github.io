@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Fit</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  </head>
+<body>
+    
+    <!-- Barra de navegacion-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"><img height="100" src="./assets/imagenes/logoGym.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Asociación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Visitas</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+      </nav>
+    </header>
+
+    
+    <!-- Carrusel-->
+    <div class="banner">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/imagenes/bannerGym.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/imagenes/banner1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/imagenes/banner1.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+       <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Principal-->
+    <main>
+      <!-- Áreas de especialización-->
+      <section class="row" id="secAreas">
+        <article class="col-md-3">
+          <div class="columna">
+            <img src="./assets/imagenes/pesas.jpg" alt="Programacion Web">
+            <h3>Areá de musculación </h1>
+            <p>
+              El área de musculación se encuentra dividida en dos partes, siendo una de ellas el área de peso libre, y otra con aparatos de última generación diseñados para trabajar cada uno de los músculos de forma segura y efectiva.</p>
+          </div>
+        </article>
+        <article class="col-md-3">
+          <div class="columna">
+            <img src="./assets/imagenes/areaCardio.jpeg" alt="Redes de computadora">
+            <h3>Areá de cardio</h3>
+            <p>A pesar de ser la más tradicional, la caminadora continua siendo uno de los equipos más eficientes cuando se trata de entrenamiento cardiovascular, pues además de proporcionar la perdida de peso y gasto calórico, también trabaja el acondicionamiento físico y respiratorio.</p>
+          </div>
+        </article>
+        <article class="col-md-3">
+          <div class="columna">
+            <img src="./assets/imagenes/instructorGym.jpeg" alt="Bases de datos">
+            <h3>Atención personalizada</h3>
+            <p>Contamos con la presencia de entrenadores capacitados para asesorarte y guiarte en tu proceso</p>
+          </div>
+        </article>
+        <article class="col-md-3">
+          <div class="columna">
+            <img src="./assets/imagenes/nutriGym.jpeg" alt="Arquitectura de computadoras">
+            <h3>Planes alimenticios</h3>
+            <p>
+              Contamos con un modulo de atención, donde podrás agendar una cita con nuestros especialistas para guiarte en tu alimentación.</p>
+          </div>
+        </article>
+      </section>
+      <!-- Cursos -->
+      <section class="row">
+        <div class="curso_columna col-md-6">
+          <img src="./assets/imagenes/zumba.webp" alt="">
+          <div class="info_curso">
+            <h3>Zumba</h3>
+            <p>Divíerte y combina el baile con una rutina de ejercicio al ritmo de la muúsica, mejora tu condición y coordinación.</p>
+          </div>
+        </div>
+        <div class="curso_columna col-md-6">
+          <img src="./assets/imagenes/crossfit.jpg" alt="">
+          <div class="info_curso">
+            <h3>CrossFit</h3>
+            <p>Circuitos de entrenamiento grupal en un área funcional, donde serás guiado por un profesor.</p>
+          </div>
+        </div>
+        <div class="curso_columna col-md-6">
+          <img src="./assets/imagenes/boxeo.jpg" alt="">
+          <div class="info_curso">
+            <h3>Boxeo</h3>
+            <p>Libera tu energía en un entrenamiento guiado que combina técnicas de artes marciales, música y ejercicio.</p>
+          </div>
+        </div>
+        <div class="curso_columna col-md-6">
+          <img src="./assets/imagenes/spinnig.jpg" alt="">
+          <div class="info_curso">
+            <h3>Spinnig</h3>
+            <p>Pedalea al ritmo de la músico y siente como se queman esas calorías. </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer id="dk-footer" class="dk-footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 col-lg-4">
+                  <div class="dk-footer-box-info">
+                      <a href="index.html" class="footer-logo">
+                          <img src="assets/imagenes/logoGym.png" alt="footer_logo" class="img-fluid">
+                      </a>
+                      <p class="footer-info-text">
+                         Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.
+                      </p>
+                      <div class="footer-social-link">
+                          <h3>Follow us</h3>
+                          <ul>
+                              <li>
+                                  <a href="#">
+                                      <i class="fa fa-facebook"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fa fa-twitter"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fa fa-google-plus"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fa fa-linkedin"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fa fa-instagram"></i>
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+                      <!-- End Social link -->
+                  </div>
+                  <!-- End Footer info -->
+                  <!--div class="footer-awarad">
+                      <img src="images/icon/best.png" alt="">
+                      <p>Best Design Company 2019</p>
+                  </div-->
+              </div>
+              <!-- End Col -->
+              <div class="col-md-12 col-lg-8">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="contact-us">
+                              <div class="contact-icon">
+                                  <i class="fa fa-map-o" aria-hidden="true"></i>
+                              </div>
+                              <!-- End contact Icon -->
+                              <div class="contact-info">
+                                  <h3>Jaipur India</h3>
+                                  <p>5353 Road Avenue</p>
+                              </div>
+                              <!-- End Contact Info -->
+                          </div>
+                          <!-- End Contact Us -->
+                      </div>
+                      <!-- End Col -->
+                      <div class="col-md-6">
+                          <div class="contact-us contact-us-last">
+                              <div class="contact-icon">
+                                  <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                              </div>
+                              <!-- End contact Icon -->
+                              <div class="contact-info">
+                                  <h3>95 711 9 5353</h3>
+                                  <p>Give us a call</p>
+                              </div>
+                              <!-- End Contact Info -->
+                          </div>
+                          <!-- End Contact Us -->
+                      </div>
+                      <!-- End Col -->
+                  </div>
+                  <!-- End Contact Row -->
+                  <div class="row">
+                      <div class="col-md-12 col-lg-6">
+                          <div class="footer-widget footer-left-widget">
+                              <div class="section-heading">
+                                  <h3>Useful Links</h3>
+                                  <span class="animate-border border-black"></span>
+                              </div>
+                              <ul>
+                                  <li>
+                                      <a href="./vistas/aboutUs.html">About us</a>
+                                  </li>
+                                  <li>
+                                      <a href="./vistas/services.html">Services</a>
+                                  </li>
+                                  <li>
+                                      <a href="./vistas/projects.html">Projects</a>
+                                  </li>
+                                  <li>
+                                      <a href="./vistas/ourTeam.html">Our Team</a>
+                                  </li>
+                              </ul>
+                              <ul>
+                                  <li>
+                                      <a href="./vistas/contactus.html">Contact us</a>
+                                  </li>
+                                  <li>
+                                      <a href="./vistas/blog.html">Blog</a>
+                                  </li>
+                                  <li>
+                                      <a href="./vistas/testimonials.html">Testimonials</a>
+                                  </li>
+                                  <li>
+                                      <a href="./vistas/faq.html">Faq</a>
+                                  </li>
+                              </ul>
+                          </div>
+                          <!-- End Footer Widget -->
+                      </div>
+                      <!-- End col -->
+                      <div class="col-md-12 col-lg-6">
+                          <div class="footer-widget">
+                              <div class="section-heading">
+                                  <h3>Subscribe</h3>
+                                  <span class="animate-border border-black"></span>
+                              </div>
+                              <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                              Reference site about Lorem Ipsum, giving information on its origins, as well.</p>
+                              <form action="#">
+                                  <div class="form-row">
+                                      <div class="col dk-footer-form">
+                                          <input type="email" class="form-control" height="" placeholder="Email Address">
+                                          <button type="submit">
+                                              <i class="fa fa-send"></i>
+                                          </button>
+                                      </div>
+                                  </div>
+                              </form>
+                              <!-- End form -->
+                          </div>
+                          <!-- End footer widget -->
+                      </div>
+                      <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
+              </div>
+              <!-- End Col -->
+          </div>
+          <!-- End Widget Row -->
+      </div>
+      <!-- End Contact Container -->
+
+
+      <div class="copyright">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <span>Copyright © 2019, All Right Reserved Seobin</span>
+                  </div>
+                  <!-- End Col -->
+                  <div class="col-md-6">
+                      <div class="copyright-menu">
+                          <ul>
+                              <li>
+                                  <a href="#">Home</a>
+                              </li>
+                              <li>
+                                  <a href="#">Terms</a>
+                              </li>
+                              <li>
+                                  <a href="#">Privacy Policy</a>
+                              </li>
+                              <li>
+                                  <a href="#">Contact</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <!-- End col -->
+              </div>
+              <!-- End Row -->
+          </div>
+          <!-- End Copyright Container -->
+      </div>
+      <!-- End Copyright -->
+      <!-- Back to top -->
+      <div id="back-to-top" class="back-to-top">
+          <button class="btn btn-dark" title="Back to Top" style="display: block;">
+              <i class="fa fa-angle-up"></i>
+          </button>
+      </div>
+      <!-- End Back to top -->
+    </footer>
+
+    
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+	<div class="row">
+	</div>
+    <div class="row">
+        
+        <div class="col-md-8">
+           <!-- apple store button -->
+                <a class="btn btn-lg btn-primary big-btn" href="#">
+  				<i class="glyphicon glyphicon-phone pull-left"></i><div class="btn-text"><small>Available on the</small><br><strong>App Store</strong></div></a>
+            <!-- android button -->
+  				<a class="btn btn-lg btn-success big-btn android-btn" href="#">
+  				<img width="80px" class="pull-left" src="http://www.userlogos.org/files/logos/jumpordie/google_play_04.png"><div class="btn-text"><small>Available on</small><br><strong>Google Play</strong></div></a>
+            <!-- windows store button -->
+                <a class="btn btn-lg btn-success big-btn windows-btn" href="#">
+  				<img width="60px" class="pull-left" src="http://1.bp.blogspot.com/-rD2_M6Vvv6w/UbmywLq5V8I/AAAAAAAACko/BEcR4QqtkRI/s1600/Windows%2BStore%2BLogo.png"><div class="btn-text">Windows<br>Store</div></a>
+                   
+            
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
